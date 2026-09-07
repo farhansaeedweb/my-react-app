@@ -1,20 +1,117 @@
-<<<<<<< HEAD
-# React + Vite
+# 🕌 Digital Tasbeeh
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Digital Tasbeeh / Dhikr Counter** built with **React, Vite, Tailwind CSS, and React Icons**.
 
-Currently, two official plugins are available:
+The app allows users to count Dhikr, set different targets, track completed sessions, and save their history using browser Local Storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* 🔢 Digital Dhikr counter
+* ➕ Increment counter
+* ➖ Decrement counter
+* 🔄 Reset counter
+* 🎯 Custom target selection
+* ⚡ Quick target presets
+* 📊 Progress percentage indicator
+* 🌙 Dark / Light mode
+* 📜 Dhikr session history
+* 🗑️ Clear history
+* 💾 History saved automatically with Local Storage
+* 🕌 Islamic Dhikr phrases
+* 📱 Responsive design for desktop and mobile
+* 🎉 Completion message when the target is reached
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+* **React**
+* **Vite**
+* **JavaScript (ES6+)**
+* **Tailwind CSS**
+* **React Icons**
+* **Local Storage**
+* **HTML5**
+* **CSS3**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# my-react-app
->>>>>>> 79515693914cc5f27324e620e03ea0c87fd65d14
+## 📸 How It Works
+
+Choose a target such as **33, 34, 99, 100, or 1000**, then use the **Count** button to increase your Dhikr count.
+
+You can also:
+
+* Decrease the count with **Minus**
+* Start again with **Reset**
+* Select quick targets
+* Switch between Dark and Light mode
+* View your completed sessions in History
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/farhansaeedweb/my-react-app.git
+```
+
+Go into the project folder:
+
+```bash
+cd my-react-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in your terminal.
+
+## 📂 Project Structure
+
+```text
+my-react-app/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🎯 Learning Project
+
+This project was created as part of my journey learning **React and modern web development**.
+
+It demonstrates practical use of:
+
+* React Components
+* `useState`
+* `useEffect`
+* Event Handling
+* Conditional Rendering
+* Array Methods
+* Local Storage
+* Tailwind CSS
+* React Icons
+
+## 👨‍💻 Author
+
+**Farhan Saeed**
+
+GitHub: [@farhansaeedweb](https://github.com/farhansaeedweb)
+
+## 🤲 Note
+
+> May Allah accept our Dhikr and make it a means of peace and blessings.
+
+---
+
+⭐ If you find this project useful, feel free to star the repository!
